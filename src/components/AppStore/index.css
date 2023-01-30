@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.input {
+  width: 80%;
+}
+.search-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.list-item {
+  list-style-type: none;
+  margin-right: 8px;
+}
+.tab-btn {
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+}
+.tabs-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.search-img {
+  width: 15px;
+  height: 15px;
+}
+.heading {
+  text-align: center;
+}
+.appItem-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
